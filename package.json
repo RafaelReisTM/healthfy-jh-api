@@ -7,7 +7,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "build": "npm install && rimraf ./build && tsc",
+    "build": "npm install && rimraf ./build",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": "mocha tests/**/*.test.js --exit"
